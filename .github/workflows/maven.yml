@@ -54,6 +54,6 @@ jobs:
             docker stop section-39
             docker rmi aegon21/section-39:latest
             docker pull aegon21/section-39:latest
-            docker run  -p 80:8080 --env-file dev.env aegon21/section-39:latest
+            docker run  -p 80:8080 aegon21/section-39:latest
   
 
