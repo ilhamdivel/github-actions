@@ -14,7 +14,7 @@ on:
 jobs:
   run_test:
     name: Unit Test
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Starting execute unit test"
       - uses: actions/checkout@v3
