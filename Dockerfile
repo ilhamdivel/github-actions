@@ -1,5 +1,5 @@
 #Import JDK
-FROM openjdk:11-alpine
+FROM openjdk:17-alpine
 
 # Set work directory
 WORKDIR /app
